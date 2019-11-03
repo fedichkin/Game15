@@ -105,7 +105,7 @@
         let { x, y } = getCoordinatesEmptyElement(),
             index    = 0;
 
-        while (index < 5) {
+        while (index < 100) {
             let directions = [],
                 countDirections, randomDirection, newX, newY;
 
