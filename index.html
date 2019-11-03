@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game 15</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="buttons">
+        <button class="button new-game-button">Новая игра</button>
+        <button class="button score-table-button">Таблица рейтингов</button>
+    </div>
+    <div class="win-title">You win!</div>
+    <div class="score">Количество ходов: <span>0</span></div>
+</header>
+<section class="container">
+    <div class="game-board"></div>
+</section>
+
+<div class="modal">
+    <div class="modal__content">
+        <div class="modal__header">
+            <h2>Таблица рейтингов</h2>
+            <span class="close">×</span>
+        </div>
+        <div class="modal__body">
+            <div class="score-table">
+                <div class="score-table__head">
+                    <div class="steps">Количество шагов</div>
+                    <div class="date">Дата и время</div>
+                </div>
+                <div class="score-table__body"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
